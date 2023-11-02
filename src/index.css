@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .shadowWithHover{
+        @apply shadow-md w-96 h-96 m-4 p-4 hover:shadow-emerald-700 rounded-3xl bg-slate-200
+    }
+}
